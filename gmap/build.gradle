@@ -1,7 +1,7 @@
 apply plugin: 'com.android.library'
 
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.sssaikia3'
+group = 'com.gitlab.ssaikia3'
 android {
     compileSdkVersion 26
 
