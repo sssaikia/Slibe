@@ -15,11 +15,11 @@
   
 
 ### Step 2. Add it in your app level build.gradle
-
+```java
 	dependencies {
 	        compile 'com.github.sssaikia:Slibe:1.0'
 	}
-
+```
 ## RecyclerItemClickListener usage
 
 ```java
@@ -41,14 +41,16 @@ String distance= getDistance(final double lat1, final double lon1, final double 
 
 ```
 ## TinyDB usage
-//initialize
-TinyDB tinyDB = new TinyDB();
 
-//save data
-tinyDB.putString(String key, String value);
+```java
 
-//retrive data
-String str = tinyDB.getString(String key);
+TinyDB tinyDB = new TinyDB();//initialize
+
+tinyDB.putString(String key, String value);//save data
+
+String str = tinyDB.getString(String key);//retrive data
+
+```
 
 ## License
 ```

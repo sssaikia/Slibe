@@ -1,5 +1,8 @@
 package com.sstudio.gmap;
 
+import android.app.AlertDialog;
+import android.content.Context;
+
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -12,8 +15,8 @@ import java.net.MalformedURLException;
 import java.net.ProtocolException;
 import java.net.URL;
 
-public class Gmap {
-    public Gmap() {
+public class Utils {
+    public Utils() {
     }
     public String getDistance(final double lat1, final double lon1, final double lat2, final double lon2) {
         final String[] parsedDistance = new String[1];
@@ -57,5 +60,12 @@ public class Gmap {
             e.printStackTrace();
         }
         return parsedDistance[0];
+    }
+    public AlertDialog QuickDiag(Context context,String title,String message){
+        AlertDialog dialog=new AlertDialog.Builder(context)
+                .setTitle(title)
+                .setMessage(message)
+                .create();
+        return dialog;
     }
 }
