@@ -40,6 +40,15 @@ someRecyclerview.addOnItemTouchListener(
 String distance= getDistance(final double lat1, final double lon1, final double lat2, final double lon2);
 
 ```
+## TinyDB usage
+//initialize
+TinyDB tinyDB = new TinyDB();
+
+//save data
+tinyDB.putString(String key, String value);
+
+//retrive data
+String str = tinyDB.getString(String key);
 
 ## License
 ```
