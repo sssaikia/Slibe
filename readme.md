@@ -1,6 +1,4 @@
-[![Release](https://jitpack.io/v/sssaikia/Slibe.svg?style=flat-square)]
-(https://jitpack.io/#sssaikia/Slibe)
-
+![Release](https://jitpack.io/v/sssaikia/Slibe.svg?style=flat-square)
 
 ## RecyclerItemClickListener usage
 
